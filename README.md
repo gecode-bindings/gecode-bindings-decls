@@ -1,5 +1,5 @@
 This project is part of the `gecode-bindings` organization on GitHub.  It
-distributes as YAML files prototypes of function for posting Gecode propagators,
+distributes as YAML files prototypes of functions for posting Gecode propagators,
 as well as useful enums.  It also provides code for automatically extracting
 such information from any version of gecode.
 
