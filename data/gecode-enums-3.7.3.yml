@@ -1,0 +1,177 @@
+# This file was automatically extracted from Gecode source files.
+# It is subject to the same Copyright as the source files from which
+# it is derived, and is distributed under the same Licensing conditions.
+name: ScriptMode
+values:
+- SM_SOLUTION
+- SM_TIME
+- SM_STAT
+- SM_GIST
+---
+name: IntRelType
+values:
+- IRT_EQ
+- IRT_NQ
+- IRT_LQ
+- IRT_LE
+- IRT_GQ
+- IRT_GR
+---
+name: BoolOpType
+values:
+- BOT_AND
+- BOT_OR
+- BOT_IMP
+- BOT_EQV
+- BOT_XOR
+---
+name: IntConLevel
+values:
+- ICL_VAL
+- ICL_BND
+- ICL_DOM
+- ICL_DEF
+---
+name: TaskType
+values:
+- TT_FIXP
+- TT_FIXS
+- TT_FIXE
+---
+name: ExtensionalPropKind
+values:
+- EPK_DEF
+- EPK_SPEED
+- EPK_MEMORY
+---
+name: IntVarBranch
+values:
+- INT_VAR_NONE
+- INT_VAR_RND
+- INT_VAR_DEGREE_MIN
+- INT_VAR_DEGREE_MAX
+- INT_VAR_AFC_MIN
+- INT_VAR_AFC_MAX
+- INT_VAR_MIN_MIN
+- INT_VAR_MIN_MAX
+- INT_VAR_MAX_MIN
+- INT_VAR_MAX_MAX
+- INT_VAR_SIZE_MIN
+- INT_VAR_SIZE_MAX
+- INT_VAR_SIZE_DEGREE_MIN
+- INT_VAR_SIZE_DEGREE_MAX
+- INT_VAR_SIZE_AFC_MIN
+- INT_VAR_SIZE_AFC_MAX
+- INT_VAR_REGRET_MIN_MIN
+- INT_VAR_REGRET_MIN_MAX
+- INT_VAR_REGRET_MAX_MIN
+- INT_VAR_REGRET_MAX_MAX
+---
+name: IntValBranch
+values:
+- INT_VAL_MIN
+- INT_VAL_MED
+- INT_VAL_MAX
+- INT_VAL_RND
+- INT_VAL_SPLIT_MIN
+- INT_VAL_SPLIT_MAX
+- INT_VAL_RANGE_MIN
+- INT_VAL_RANGE_MAX
+- INT_VALUES_MIN
+- INT_VALUES_MAX
+---
+name: IntAssign
+values:
+- INT_ASSIGN_MIN
+- INT_ASSIGN_MED
+- INT_ASSIGN_MAX
+- INT_ASSIGN_RND
+---
+name: ViewSelStatus
+values:
+- VSS_BEST
+- VSS_BETTER
+- VSS_TIE
+- VSS_WORSE
+---
+name: ExecStatus
+values:
+- __ES_SUBSUMED
+- ES_FAILED
+- ES_NOFIX
+- ES_OK
+- ES_FIX
+- ES_NOFIX_FORCE
+- __ES_PARTIAL
+---
+name: ActorProperty
+values:
+- AP_DISPOSE
+- AP_WEAKLY
+---
+name: SpaceStatus
+values:
+- SS_FAILED
+- SS_SOLVED
+- SS_BRANCH
+---
+name: SetRelType
+values:
+- SRT_EQ
+- SRT_NQ
+- SRT_SUB
+- SRT_SUP
+- SRT_DISJ
+- SRT_CMPL
+- SRT_LQ
+- SRT_LE
+- SRT_GQ
+- SRT_GR
+---
+name: SetOpType
+values:
+- SOT_UNION
+- SOT_DUNION
+- SOT_INTER
+- SOT_MINUS
+---
+name: SetVarBranch
+values:
+- SET_VAR_NONE
+- SET_VAR_RND
+- SET_VAR_DEGREE_MIN
+- SET_VAR_DEGREE_MAX
+- SET_VAR_AFC_MIN
+- SET_VAR_AFC_MAX
+- SET_VAR_MIN_MIN
+- SET_VAR_MIN_MAX
+- SET_VAR_MAX_MIN
+- SET_VAR_MAX_MAX
+- SET_VAR_SIZE_MIN
+- SET_VAR_SIZE_MAX
+- SET_VAR_SIZE_DEGREE_MIN
+- SET_VAR_SIZE_DEGREE_MAX
+- SET_VAR_SIZE_AFC_MIN
+- SET_VAR_SIZE_AFC_MAX
+---
+name: SetValBranch
+values:
+- SET_VAL_MIN_INC
+- SET_VAL_MIN_EXC
+- SET_VAL_MED_INC
+- SET_VAL_MED_EXC
+- SET_VAL_MAX_INC
+- SET_VAL_MAX_EXC
+- SET_VAL_RND_INC
+- SET_VAL_RND_EXC
+---
+name: SetAssign
+values:
+- SET_ASSIGN_MIN_INC
+- SET_ASSIGN_MIN_EXC
+- SET_ASSIGN_MED_INC
+- SET_ASSIGN_MED_EXC
+- SET_ASSIGN_MAX_INC
+- SET_ASSIGN_MAX_EXC
+- SET_ASSIGN_RND_INC
+- SET_ASSIGN_RND_EXC

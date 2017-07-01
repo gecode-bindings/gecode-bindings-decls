@@ -1,0 +1,109 @@
+# This file was automatically extracted from Gecode source files.
+# It is subject to the same Copyright as the source files from which
+# it is derived, and is distributed under the same Licensing conditions.
+name: ScriptMode
+values:
+- SM_SOLUTION
+- SM_TIME
+- SM_STAT
+- SM_GIST
+---
+name: RestartMode
+values:
+- RM_NONE
+- RM_CONSTANT
+- RM_LINEAR
+- RM_LUBY
+- RM_GEOMETRIC
+---
+name: FloatRelType
+values:
+- FRT_EQ
+- FRT_NQ
+- FRT_LQ
+- FRT_LE
+- FRT_GQ
+- FRT_GR
+---
+name: ReifyMode
+values:
+- RM_EQV
+- RM_IMP
+- RM_PMI
+---
+name: IntRelType
+values:
+- IRT_EQ
+- IRT_NQ
+- IRT_LQ
+- IRT_LE
+- IRT_GQ
+- IRT_GR
+---
+name: BoolOpType
+values:
+- BOT_AND
+- BOT_OR
+- BOT_IMP
+- BOT_EQV
+- BOT_XOR
+---
+name: IntConLevel
+values:
+- ICL_VAL
+- ICL_BND
+- ICL_DOM
+- ICL_DEF
+---
+name: TaskType
+values:
+- TT_FIXP
+- TT_FIXS
+- TT_FIXE
+---
+name: ExtensionalPropKind
+values:
+- EPK_DEF
+- EPK_SPEED
+- EPK_MEMORY
+---
+name: ExecStatus
+values:
+- __ES_SUBSUMED
+- ES_FAILED
+- ES_NOFIX
+- ES_OK
+- ES_FIX
+- ES_NOFIX_FORCE
+- __ES_PARTIAL
+---
+name: ActorProperty
+values:
+- AP_DISPOSE
+- AP_WEAKLY
+---
+name: SpaceStatus
+values:
+- SS_FAILED
+- SS_SOLVED
+- SS_BRANCH
+---
+name: SetRelType
+values:
+- SRT_EQ
+- SRT_NQ
+- SRT_SUB
+- SRT_SUP
+- SRT_DISJ
+- SRT_CMPL
+- SRT_LQ
+- SRT_LE
+- SRT_GQ
+- SRT_GR
+---
+name: SetOpType
+values:
+- SOT_UNION
+- SOT_DUNION
+- SOT_INTER
+- SOT_MINUS

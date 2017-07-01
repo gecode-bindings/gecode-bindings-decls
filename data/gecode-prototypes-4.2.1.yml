@@ -1,0 +1,6725 @@
+# This file was automatically extracted from Gecode source files.
+# It is subject to the same Copyright as the source files from which
+# it is derived, and is distributed under the same Licensing conditions.
+args:
+-   default: null
+    name: null
+    type: void
+name: FLOAT_ASSIGN_MIN
+type: FloatAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: FLOAT_ASSIGN_MAX
+type: FloatAssign
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: FLOAT_ASSIGN_RND
+type: FloatAssign
+---
+args:
+-   default: null
+    name: v
+    type: FloatBranchVal
+-   default: null
+    name: c
+    type: FloatBranchCommit
+name: FLOAT_ASSIGN
+type: FloatAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: FLOAT_VAL_SPLIT_MIN
+type: FloatValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: FLOAT_VAL_SPLIT_MAX
+type: FloatValBranch
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: FLOAT_VAL_SPLIT_RND
+type: FloatValBranch
+---
+args:
+-   default: null
+    name: v
+    type: FloatBranchVal
+-   default: null
+    name: c
+    type: FloatBranchCommit
+name: FLOAT_VAL
+type: FloatValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: FLOAT_VAR_NONE
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: bm
+    type: FloatBranchMerit
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_MERIT_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: bm
+    type: FloatBranchMerit
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_MERIT_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: FLOAT_VAR_RND
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_DEGREE_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_DEGREE_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_AFC_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: FloatAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_AFC_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_AFC_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: FloatAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_AFC_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_ACTIVITY_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: FloatActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_ACTIVITY_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_ACTIVITY_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: FloatActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_ACTIVITY_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_MIN_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_MIN_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_MAX_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_MAX_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_SIZE_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_SIZE_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_DEGREE_SIZE_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_DEGREE_SIZE_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_AFC_SIZE_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: FloatAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_AFC_SIZE_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_AFC_SIZE_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: FloatAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_AFC_SIZE_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_ACTIVITY_SIZE_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: FloatActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_ACTIVITY_SIZE_MIN
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_ACTIVITY_SIZE_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: FloatActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: FLOAT_VAR_ACTIVITY_SIZE_MAX
+type: FloatVarBranch
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: FloatVar
+-   default: null
+    name: n
+    type: FloatVal
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: n
+    type: FloatVal
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: FloatVar
+-   default: null
+    name: l
+    type: FloatNum
+-   default: null
+    name: m
+    type: FloatNum
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: l
+    type: FloatNum
+-   default: null
+    name: u
+    type: FloatNum
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: FloatVar
+-   default: null
+    name: n
+    type: FloatVal
+-   default: null
+    name: r
+    type: Reify
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: FloatVar
+-   default: null
+    name: l
+    type: FloatNum
+-   default: null
+    name: u
+    type: FloatNum
+-   default: null
+    name: r
+    type: Reify
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: FloatVar
+-   default: null
+    name: d
+    type: FloatVar
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: d
+    type: const FloatVarArgs &
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: x1
+    type: FloatVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: FloatVar
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: c
+    type: FloatVal
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: FloatVar
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: c
+    type: FloatVal
+-   default: null
+    name: r
+    type: Reify
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: x1
+    type: FloatVar
+-   default: null
+    name: r
+    type: Reify
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: c
+    type: FloatVal
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: y
+    type: FloatVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: x1
+    type: FloatVar
+-   default: null
+    name: x2
+    type: FloatVar
+name: min
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: y
+    type: FloatVar
+name: min
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: x1
+    type: FloatVar
+-   default: null
+    name: x2
+    type: FloatVar
+name: max
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: y
+    type: FloatVar
+name: max
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: x1
+    type: FloatVar
+name: abs
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: x1
+    type: FloatVar
+-   default: null
+    name: x2
+    type: FloatVar
+name: mult
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: x1
+    type: FloatVar
+name: sqr
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: x1
+    type: FloatVar
+name: sqrt
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: x1
+    type: FloatVar
+name: pow
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: x1
+    type: FloatVar
+name: nroot
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: x1
+    type: FloatVar
+-   default: null
+    name: x2
+    type: FloatVar
+name: div
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: c
+    type: FloatNum
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: y
+    type: FloatVar
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: c
+    type: FloatNum
+-   default: null
+    name: r
+    type: Reify
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: y
+    type: FloatVar
+-   default: null
+    name: r
+    type: Reify
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const FloatValArgs &
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: c
+    type: FloatNum
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const FloatValArgs &
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: y
+    type: FloatVar
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const FloatValArgs &
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: c
+    type: FloatNum
+-   default: null
+    name: r
+    type: Reify
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const FloatValArgs &
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: frt
+    type: FloatRelType
+-   default: null
+    name: y
+    type: FloatVar
+-   default: null
+    name: r
+    type: Reify
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: FloatVar
+-   default: null
+    name: x1
+    type: IntVar
+name: channel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: FloatVar
+name: channel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: vars
+    type: FloatVarBranch
+-   default: null
+    name: vals
+    type: FloatValBranch
+-   default: null
+    name: bf
+    type: FloatBranchFilter
+-   default: null
+    name: vvp
+    type: FloatVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: vars
+    type: TieBreak< FloatVarBranch >
+-   default: null
+    name: vals
+    type: FloatValBranch
+-   default: null
+    name: bf
+    type: FloatBranchFilter
+-   default: null
+    name: vvp
+    type: FloatVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: FloatVar
+-   default: null
+    name: vals
+    type: FloatValBranch
+-   default: null
+    name: vvp
+    type: FloatVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const FloatVarArgs &
+-   default: null
+    name: vals
+    type: FloatAssign
+-   default: null
+    name: fbf
+    type: FloatBranchFilter
+-   default: null
+    name: vvp
+    type: FloatVarValPrint
+name: assign
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: FloatVar
+-   default: null
+    name: vals
+    type: FloatAssign
+-   default: null
+    name: vvp
+    type: FloatVarValPrint
+name: assign
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_ASSIGN_MIN
+type: IntAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_ASSIGN_MED
+type: IntAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_ASSIGN_MAX
+type: IntAssign
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: INT_ASSIGN_RND
+type: IntAssign
+---
+args:
+-   default: null
+    name: v
+    type: IntBranchVal
+-   default: null
+    name: c
+    type: IntBranchCommit
+name: INT_ASSIGN
+type: IntAssign
+---
+args:
+-   default: null
+    name: v
+    type: BoolBranchVal
+-   default: null
+    name: c
+    type: BoolBranchCommit
+name: INT_ASSIGN
+type: IntAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_VAL_MIN
+type: IntValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_VAL_MED
+type: IntValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_VAL_MAX
+type: IntValBranch
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: INT_VAL_RND
+type: IntValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_VAL_SPLIT_MIN
+type: IntValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_VAL_SPLIT_MAX
+type: IntValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_VAL_RANGE_MIN
+type: IntValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_VAL_RANGE_MAX
+type: IntValBranch
+---
+args:
+-   default: null
+    name: v
+    type: IntBranchVal
+-   default: null
+    name: c
+    type: IntBranchCommit
+name: INT_VAL
+type: IntValBranch
+---
+args:
+-   default: null
+    name: v
+    type: BoolBranchVal
+-   default: null
+    name: c
+    type: BoolBranchCommit
+name: INT_VAL
+type: IntValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_VALUES_MIN
+type: IntValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_VALUES_MAX
+type: IntValBranch
+---
+args:
+-   default: null
+    name: n
+    type: IntSharedArray
+name: INT_VAL_NEAR_MIN
+type: IntValBranch
+---
+args:
+-   default: null
+    name: n
+    type: IntSharedArray
+name: INT_VAL_NEAR_MAX
+type: IntValBranch
+---
+args:
+-   default: null
+    name: n
+    type: IntSharedArray
+name: INT_VAL_NEAR_INC
+type: IntValBranch
+---
+args:
+-   default: null
+    name: n
+    type: IntSharedArray
+name: INT_VAL_NEAR_DEC
+type: IntValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: INT_VAR_NONE
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: INT_VAR_RND
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: bm
+    type: IntBranchMerit
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_MERIT_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: bm
+    type: BoolBranchMerit
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_MERIT_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: bm
+    type: IntBranchMerit
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_MERIT_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: bm
+    type: BoolBranchMerit
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_MERIT_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_DEGREE_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_DEGREE_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_AFC_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: IntAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_AFC_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_AFC_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: IntAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_AFC_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_ACTIVITY_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: IntActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_ACTIVITY_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_ACTIVITY_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: IntActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_ACTIVITY_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_MIN_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_MIN_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_MAX_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_MAX_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_SIZE_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_SIZE_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_DEGREE_SIZE_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_DEGREE_SIZE_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_AFC_SIZE_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: IntAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_AFC_SIZE_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_AFC_SIZE_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: IntAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_AFC_SIZE_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_ACTIVITY_SIZE_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: IntActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_ACTIVITY_SIZE_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_ACTIVITY_SIZE_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: IntActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_ACTIVITY_SIZE_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_REGRET_MIN_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_REGRET_MIN_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_REGRET_MAX_MIN
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: INT_VAR_REGRET_MAX_MAX
+type: IntVarBranch
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: l
+    type: int
+-   default: null
+    name: m
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: l
+    type: int
+-   default: null
+    name: m
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: s
+    type: const IntSet &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: const IntSet &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: l
+    type: int
+-   default: null
+    name: m
+    type: int
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: s
+    type: const IntSet &
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: d
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: BoolVar
+-   default: null
+    name: d
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: d
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: d
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: BoolVar
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: x1
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: BoolVar
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: x1
+    type: BoolVar
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: BoolVar
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: BoolVar
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: BoolVar
+-   default: null
+    name: o
+    type: BoolOpType
+-   default: null
+    name: x1
+    type: BoolVar
+-   default: null
+    name: x2
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: BoolVar
+-   default: null
+    name: o
+    type: BoolOpType
+-   default: null
+    name: x1
+    type: BoolVar
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: o
+    type: BoolOpType
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: y
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: o
+    type: BoolOpType
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: o
+    type: BoolOpType
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: y
+    type: const BoolVarArgs &
+-   default: null
+    name: z
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: clause
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: o
+    type: BoolOpType
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: y
+    type: const BoolVarArgs &
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: clause
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: b
+    type: BoolVar
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: ite
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: int
+-   default: null
+    name: t
+    type: int
+-   default: null
+    name: null
+    type: IntConLevel
+name: precede
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: null
+    type: IntConLevel
+name: precede
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: member
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: y
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: member
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: member
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: y
+    type: BoolVar
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: member
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: n
+    type: IntSharedArray
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: n
+    type: IntSharedArray
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: n
+    type: IntSharedArray
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y0
+    type: IntVar
+-   default: null
+    name: y1
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y0
+    type: IntVar
+-   default: null
+    name: y1
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: y0
+    type: IntVar
+-   default: null
+    name: y1
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: y0
+    type: IntVar
+-   default: null
+    name: y1
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: IntSharedArray
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: w
+    type: int
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: h
+    type: int
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: IntSharedArray
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: w
+    type: int
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: h
+    type: int
+-   default: null
+    name: z
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const IntVarArgs &
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: w
+    type: int
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: h
+    type: int
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const BoolVarArgs &
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: w
+    type: int
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: h
+    type: int
+-   default: null
+    name: z
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: distinct
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: n
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: distinct
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: channel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: xoff
+    type: int
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: yoff
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: channel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: BoolVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: channel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: BoolVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: channel
+type: forceinline void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: o
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: channel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: sorted
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: z
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: sorted
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: m
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: const IntSet &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: m
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: m
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: const IntArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: m
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: const IntSet &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: const IntArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: c
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: c
+    type: const IntSetArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: c
+    type: const IntVarArgs &
+-   default: null
+    name: v
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: c
+    type: const IntSetArgs &
+-   default: null
+    name: v
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: c
+    type: const IntSet &
+-   default: null
+    name: v
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: count
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: nvalues
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: nvalues
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: nvalues
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: nvalues
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: const IntSet &
+-   default: null
+    name: q
+    type: int
+-   default: null
+    name: l
+    type: int
+-   default: null
+    name: u
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: sequence
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: s
+    type: const IntSet &
+-   default: null
+    name: q
+    type: int
+-   default: null
+    name: l
+    type: int
+-   default: null
+    name: u
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: sequence
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: d
+    type: DFA
+-   default: null
+    name: icl
+    type: IntConLevel
+name: extensional
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: d
+    type: DFA
+-   default: null
+    name: icl
+    type: IntConLevel
+name: extensional
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: t
+    type: const TupleSet &
+-   default: null
+    name: epk
+    type: ExtensionalPropKind
+-   default: null
+    name: icl
+    type: IntConLevel
+name: extensional
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: t
+    type: const TupleSet &
+-   default: null
+    name: epk
+    type: ExtensionalPropKind
+-   default: null
+    name: icl
+    type: IntConLevel
+name: extensional
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: x2
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: min
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: min
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: x2
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: max
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: max
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: abs
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: x2
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: mult
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: x2
+    type: IntVar
+-   default: null
+    name: x3
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: divmod
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: x2
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: div
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: x2
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: mod
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: sqr
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: sqrt
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: pow
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: IntVar
+-   default: null
+    name: n
+    type: int
+-   default: null
+    name: x1
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: nroot
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: irt
+    type: IntRelType
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: r
+    type: Reify
+-   default: null
+    name: icl
+    type: IntConLevel
+name: linear
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: l
+    type: const IntVarArgs &
+-   default: null
+    name: b
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: binpacking
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: w
+    type: const IntArgs &
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: h
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: nooverlap
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: w
+    type: const IntArgs &
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: h
+    type: const IntArgs &
+-   default: null
+    name: o
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: nooverlap
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: const IntVarArgs &
+-   default: null
+    name: w
+    type: const IntVarArgs &
+-   default: null
+    name: x1
+    type: const IntVarArgs &
+-   default: null
+    name: y0
+    type: const IntVarArgs &
+-   default: null
+    name: h
+    type: const IntVarArgs &
+-   default: null
+    name: y1
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: nooverlap
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x0
+    type: const IntVarArgs &
+-   default: null
+    name: w
+    type: const IntVarArgs &
+-   default: null
+    name: x1
+    type: const IntVarArgs &
+-   default: null
+    name: y0
+    type: const IntVarArgs &
+-   default: null
+    name: h
+    type: const IntVarArgs &
+-   default: null
+    name: y1
+    type: const IntVarArgs &
+-   default: null
+    name: o
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: nooverlap
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: m
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntVarArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntVarArgs &
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: at_most
+    type: bool
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulatives
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: m
+    type: const IntArgs &
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntVarArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntVarArgs &
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: at_most
+    type: bool
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulatives
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: m
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntVarArgs &
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: at_most
+    type: bool
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulatives
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: m
+    type: const IntArgs &
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntVarArgs &
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: at_most
+    type: bool
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulatives
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: m
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntVarArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: at_most
+    type: bool
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulatives
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: m
+    type: const IntArgs &
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntVarArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: at_most
+    type: bool
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulatives
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: m
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: at_most
+    type: bool
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulatives
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: m
+    type: const IntArgs &
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: at_most
+    type: bool
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulatives
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: unary
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntArgs &
+-   default: null
+    name: m
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: unary
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: t
+    type: const TaskTypeArgs &
+-   default: null
+    name: flex
+    type: const IntVarArgs &
+-   default: null
+    name: fix
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: unary
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: t
+    type: const TaskTypeArgs &
+-   default: null
+    name: flex
+    type: const IntVarArgs &
+-   default: null
+    name: fix
+    type: const IntArgs &
+-   default: null
+    name: m
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: unary
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntVarArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: unary
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntVarArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: m
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: unary
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: t
+    type: const TaskTypeArgs &
+-   default: null
+    name: flex
+    type: const IntVarArgs &
+-   default: null
+    name: fix
+    type: const IntArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: IntVar
+-   default: null
+    name: t
+    type: const TaskTypeArgs &
+-   default: null
+    name: flex
+    type: const IntVarArgs &
+-   default: null
+    name: fix
+    type: const IntArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: t
+    type: const TaskTypeArgs &
+-   default: null
+    name: flex
+    type: const IntVarArgs &
+-   default: null
+    name: fix
+    type: const IntArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: m
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: IntVar
+-   default: null
+    name: t
+    type: const TaskTypeArgs &
+-   default: null
+    name: flex
+    type: const IntVarArgs &
+-   default: null
+    name: fix
+    type: const IntArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: m
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: IntVar
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: m
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: IntVar
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: m
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntVarArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: IntVar
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntVarArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: int
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntVarArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: m
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: IntVar
+-   default: null
+    name: s
+    type: const IntVarArgs &
+-   default: null
+    name: p
+    type: const IntVarArgs &
+-   default: null
+    name: e
+    type: const IntVarArgs &
+-   default: null
+    name: u
+    type: const IntArgs &
+-   default: null
+    name: m
+    type: const BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: cumulative
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: circuit
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: offset
+    type: int
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: circuit
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: circuit
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: offset
+    type: int
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: circuit
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: circuit
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: offset
+    type: int
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: circuit
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: IntVar
+-   default: null
+    name: e
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: path
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: offset
+    type: int
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: IntVar
+-   default: null
+    name: e
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: path
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: IntVar
+-   default: null
+    name: e
+    type: IntVar
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: path
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: offset
+    type: int
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: IntVar
+-   default: null
+    name: e
+    type: IntVar
+-   default: null
+    name: y
+    type: const IntVarArgs &
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: path
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: IntVar
+-   default: null
+    name: e
+    type: IntVar
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: path
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: c
+    type: const IntArgs &
+-   default: null
+    name: offset
+    type: int
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: s
+    type: IntVar
+-   default: null
+    name: e
+    type: IntVar
+-   default: null
+    name: z
+    type: IntVar
+-   default: null
+    name: icl
+    type: IntConLevel
+name: path
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: BoolVar
+-   default: null
+    name: t
+    type: void(*)(Space &home)
+-   default: null
+    name: e
+    type: void(*)(Space &home)
+-   default: null
+    name: icl
+    type: IntConLevel
+name: when
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: unshare
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: BoolVarArgs &
+-   default: null
+    name: icl
+    type: IntConLevel
+name: unshare
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: vars
+    type: IntVarBranch
+-   default: null
+    name: vals
+    type: IntValBranch
+-   default: null
+    name: bf
+    type: IntBranchFilter
+-   default: null
+    name: vvp
+    type: IntVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: vars
+    type: TieBreak< IntVarBranch >
+-   default: null
+    name: vals
+    type: IntValBranch
+-   default: null
+    name: bf
+    type: IntBranchFilter
+-   default: null
+    name: vvp
+    type: IntVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: vals
+    type: IntValBranch
+-   default: null
+    name: vvp
+    type: IntVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: vars
+    type: IntVarBranch
+-   default: null
+    name: vals
+    type: IntValBranch
+-   default: null
+    name: bf
+    type: BoolBranchFilter
+-   default: null
+    name: vvp
+    type: BoolVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: vars
+    type: TieBreak< IntVarBranch >
+-   default: null
+    name: vals
+    type: IntValBranch
+-   default: null
+    name: bf
+    type: BoolBranchFilter
+-   default: null
+    name: vvp
+    type: BoolVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: BoolVar
+-   default: null
+    name: vals
+    type: IntValBranch
+-   default: null
+    name: vvp
+    type: BoolVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: vals
+    type: IntAssign
+-   default: null
+    name: ibf
+    type: IntBranchFilter
+-   default: null
+    name: vvp
+    type: IntVarValPrint
+name: assign
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: vals
+    type: IntAssign
+-   default: null
+    name: vvp
+    type: IntVarValPrint
+name: assign
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: vals
+    type: IntAssign
+-   default: null
+    name: bbf
+    type: BoolBranchFilter
+-   default: null
+    name: vvp
+    type: BoolVarValPrint
+name: assign
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: BoolVar
+-   default: null
+    name: vals
+    type: IntAssign
+-   default: null
+    name: vvp
+    type: BoolVarValPrint
+name: assign
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: x
+    type: const IntVarArgs &
+name: VariableSymmetry
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+name: VariableSymmetry
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: indices
+    type: const IntArgs &
+name: VariableSymmetry
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: v
+    type: const IntArgs &
+name: ValueSymmetry
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: v
+    type: const IntSet &
+name: ValueSymmetry
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: vars
+    type: IntVar
+name: ValueSymmetry
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: ss
+    type: int
+name: VariableSequenceSymmetry
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: ss
+    type: int
+name: VariableSequenceSymmetry
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: v
+    type: const IntArgs &
+-   default: null
+    name: ss
+    type: int
+name: ValueSequenceSymmetry
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: lower
+    type: int
+-   default: null
+    name: upper
+    type: int
+name: values_reflect
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: x
+    type: IntVar
+name: values_reflect
+type: SymmetryHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: vars
+    type: IntVarBranch
+-   default: null
+    name: vals
+    type: IntValBranch
+-   default: null
+    name: syms
+    type: const Symmetries &
+-   default: null
+    name: bf
+    type: IntBranchFilter
+-   default: null
+    name: vvp
+    type: IntVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: vars
+    type: TieBreak< IntVarBranch >
+-   default: null
+    name: vals
+    type: IntValBranch
+-   default: null
+    name: syms
+    type: const Symmetries &
+-   default: null
+    name: bf
+    type: IntBranchFilter
+-   default: null
+    name: vvp
+    type: IntVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: vars
+    type: IntVarBranch
+-   default: null
+    name: vals
+    type: IntValBranch
+-   default: null
+    name: syms
+    type: const Symmetries &
+-   default: null
+    name: bf
+    type: BoolBranchFilter
+-   default: null
+    name: vvp
+    type: BoolVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: vars
+    type: TieBreak< IntVarBranch >
+-   default: null
+    name: vals
+    type: IntValBranch
+-   default: null
+    name: syms
+    type: const Symmetries &
+-   default: null
+    name: bf
+    type: BoolBranchFilter
+-   default: null
+    name: vvp
+    type: BoolVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: f
+    type: void(*)(Space &home)
+name: branch
+type: void
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_ASSIGN_MIN_INC
+type: SetAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_ASSIGN_MIN_EXC
+type: SetAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_ASSIGN_MED_INC
+type: SetAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_ASSIGN_MED_EXC
+type: SetAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_ASSIGN_MAX_INC
+type: SetAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_ASSIGN_MAX_EXC
+type: SetAssign
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: SET_ASSIGN_RND_INC
+type: SetAssign
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: SET_ASSIGN_RND_EXC
+type: SetAssign
+---
+args:
+-   default: null
+    name: v
+    type: SetBranchVal
+-   default: null
+    name: c
+    type: SetBranchCommit
+name: SET_ASSIGN
+type: SetAssign
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_VAL_MIN_INC
+type: SetValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_VAL_MIN_EXC
+type: SetValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_VAL_MED_INC
+type: SetValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_VAL_MED_EXC
+type: SetValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_VAL_MAX_INC
+type: SetValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_VAL_MAX_EXC
+type: SetValBranch
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: SET_VAL_RND_INC
+type: SetValBranch
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: SET_VAL_RND_EXC
+type: SetValBranch
+---
+args:
+-   default: null
+    name: v
+    type: SetBranchVal
+-   default: null
+    name: c
+    type: SetBranchCommit
+name: SET_VAL
+type: SetValBranch
+---
+args:
+-   default: null
+    name: null
+    type: void
+name: SET_VAR_NONE
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: r
+    type: Rnd
+name: SET_VAR_RND
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: bm
+    type: SetBranchMerit
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_MERIT_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: bm
+    type: SetBranchMerit
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_MERIT_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_DEGREE_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_DEGREE_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_AFC_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: SetAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_AFC_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_AFC_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: SetAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_AFC_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_ACTIVITY_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: SetActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_ACTIVITY_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_ACTIVITY_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: SetActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_ACTIVITY_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_MIN_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_MIN_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_MAX_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_MAX_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_SIZE_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_SIZE_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_DEGREE_SIZE_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_DEGREE_SIZE_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_AFC_SIZE_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: SetAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_AFC_SIZE_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_AFC_SIZE_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: SetAFC
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_AFC_SIZE_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_ACTIVITY_SIZE_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: SetActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_ACTIVITY_SIZE_MIN
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: d
+    type: double
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_ACTIVITY_SIZE_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: a
+    type: SetActivity
+-   default: null
+    name: tbl
+    type: BranchTbl
+name: SET_VAR_ACTIVITY_SIZE_MAX
+type: SetVarBranch
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: i
+    type: int
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: i
+    type: int
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: i
+    type: int
+-   default: null
+    name: j
+    type: int
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: i
+    type: int
+-   default: null
+    name: j
+    type: int
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: s
+    type: const IntSet &
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: s
+    type: const IntSet &
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: i
+    type: unsigned int
+-   default: null
+    name: j
+    type: unsigned int
+name: cardinality
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: i
+    type: unsigned int
+-   default: null
+    name: j
+    type: unsigned int
+name: cardinality
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: rt
+    type: SetRelType
+-   default: null
+    name: i
+    type: int
+-   default: null
+    name: r
+    type: Reify
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: rt
+    type: SetRelType
+-   default: null
+    name: i
+    type: int
+-   default: null
+    name: j
+    type: int
+-   default: null
+    name: r
+    type: Reify
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: rt
+    type: SetRelType
+-   default: null
+    name: s
+    type: const IntSet &
+-   default: null
+    name: r
+    type: Reify
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: d
+    type: SetVar
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: d
+    type: const SetVarArgs &
+name: dom
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: y
+    type: SetVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: rt
+    type: SetRelType
+-   default: null
+    name: y
+    type: SetVar
+-   default: null
+    name: r
+    type: Reify
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: x
+    type: IntVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: s
+    type: SetVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: rt
+    type: SetRelType
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: r
+    type: Reify
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: rt
+    type: SetRelType
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: r
+    type: Reify
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: r
+    type: IntRelType
+-   default: null
+    name: x
+    type: IntVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: r
+    type: IntRelType
+-   default: null
+    name: s
+    type: SetVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: y
+    type: SetVar
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: z
+    type: SetVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: y
+    type: SetVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: z
+    type: const IntSet &
+-   default: null
+    name: y
+    type: SetVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: z
+    type: const IntSet &
+-   default: null
+    name: y
+    type: SetVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: SetVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntSet &
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: y
+    type: SetVar
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: z
+    type: SetVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: y
+    type: const IntSet &
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: z
+    type: SetVar
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: y
+    type: SetVar
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: z
+    type: const IntSet &
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntSet &
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: y
+    type: SetVar
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: z
+    type: const IntSet &
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: y
+    type: const IntSet &
+-   default: null
+    name: r
+    type: SetRelType
+-   default: null
+    name: z
+    type: const IntSet &
+name: rel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+name: convex
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: y
+    type: SetVar
+name: convex
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+name: sequence
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: y
+    type: const SetVarArgs &
+-   default: null
+    name: x
+    type: SetVar
+name: sequence
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: c
+    type: unsigned int
+name: atmostOne
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: x
+    type: IntVar
+name: min
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: x
+    type: IntVar
+name: notMin
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: r
+    type: Reify
+name: min
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: x
+    type: IntVar
+name: max
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: x
+    type: IntVar
+name: notMax
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: r
+    type: Reify
+name: max
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: SetVar
+-   default: null
+    name: x
+    type: IntVar
+name: cardinality
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: elements
+    type: IntSharedArray
+-   default: null
+    name: weights
+    type: IntSharedArray
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: y
+    type: IntVar
+name: weights
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: const SetVarArgs &
+name: channel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: SetVar
+name: channelSorted
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const BoolVarArgs &
+-   default: null
+    name: y
+    type: SetVar
+name: channel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: y
+    type: const SetVarArgs &
+name: channel
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: s
+    type: int
+-   default: null
+    name: t
+    type: int
+name: precede
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: c
+    type: const IntArgs &
+name: precede
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: y
+    type: SetVar
+-   default: null
+    name: z
+    type: SetVar
+-   default: null
+    name: u
+    type: const IntSet &
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: x
+    type: const IntVarArgs &
+-   default: null
+    name: y
+    type: SetVar
+-   default: null
+    name: z
+    type: SetVar
+-   default: null
+    name: u
+    type: const IntSet &
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: x
+    type: const IntSetArgs &
+-   default: null
+    name: y
+    type: SetVar
+-   default: null
+    name: z
+    type: SetVar
+-   default: null
+    name: u
+    type: const IntSet &
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: op
+    type: SetOpType
+-   default: null
+    name: x
+    type: const IntArgs &
+-   default: null
+    name: y
+    type: SetVar
+-   default: null
+    name: z
+    type: SetVar
+-   default: null
+    name: u
+    type: const IntSet &
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: z
+    type: SetVar
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: s
+    type: const IntSetArgs &
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: z
+    type: SetVar
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const IntSetArgs &
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: w
+    type: int
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: h
+    type: int
+-   default: null
+    name: z
+    type: SetVar
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: a
+    type: const SetVarArgs &
+-   default: null
+    name: x
+    type: IntVar
+-   default: null
+    name: w
+    type: int
+-   default: null
+    name: y
+    type: IntVar
+-   default: null
+    name: h
+    type: int
+-   default: null
+    name: z
+    type: SetVar
+name: element
+type: void
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: vars
+    type: SetVarBranch
+-   default: null
+    name: vals
+    type: SetValBranch
+-   default: null
+    name: bf
+    type: SetBranchFilter
+-   default: null
+    name: vvp
+    type: SetVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: vars
+    type: TieBreak< SetVarBranch >
+-   default: null
+    name: vals
+    type: SetValBranch
+-   default: null
+    name: bf
+    type: SetBranchFilter
+-   default: null
+    name: vvp
+    type: SetVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: vals
+    type: SetValBranch
+-   default: null
+    name: vvp
+    type: SetVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: vals
+    type: SetAssign
+-   default: null
+    name: bf
+    type: SetBranchFilter
+-   default: null
+    name: vvp
+    type: SetVarValPrint
+name: assign
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: SetVar
+-   default: null
+    name: vals
+    type: SetAssign
+-   default: null
+    name: vvp
+    type: SetVarValPrint
+name: assign
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: vars
+    type: SetVarBranch
+-   default: null
+    name: vals
+    type: SetValBranch
+-   default: null
+    name: syms
+    type: const Symmetries &
+-   default: null
+    name: bf
+    type: SetBranchFilter
+-   default: null
+    name: vvp
+    type: SetVarValPrint
+name: branch
+type: BrancherHandle
+---
+args:
+-   default: null
+    name: home
+    type: Home
+-   default: null
+    name: x
+    type: const SetVarArgs &
+-   default: null
+    name: vars
+    type: TieBreak< SetVarBranch >
+-   default: null
+    name: vals
+    type: SetValBranch
+-   default: null
+    name: syms
+    type: const Symmetries &
+-   default: null
+    name: bf
+    type: SetBranchFilter
+-   default: null
+    name: vvp
+    type: SetVarValPrint
+name: branch
+type: BrancherHandle
